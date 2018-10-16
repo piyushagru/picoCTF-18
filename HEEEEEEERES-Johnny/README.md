@@ -3,7 +3,7 @@
 
 Classic John The Ripper problem. 
 
-we did a quick cat on the file to know encription type
+we did a quick cat on the file to know encryption type
 
 ##### cat shadow 
 ##### root:$6$q7xpw/2.$la4KiUz87ohdszbOVoIopy2VTwm/5jEXvWSdWynh0CnP5T.MnJfVNCzp3IfJMHUNuBhr1ewcYd8PyeKHqHQoe.:17770:0:99999:7:::
