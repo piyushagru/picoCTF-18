@@ -5,4 +5,4 @@ This repository wants to know about your "creative" method for finding a picoCTF
 Feel free to add the content.
 
 
-# I am a very lazy writer so please spare my grammer used in writing these writeups!
+### I am a very lazy writer so please spare my grammer used in writing these writeups!
