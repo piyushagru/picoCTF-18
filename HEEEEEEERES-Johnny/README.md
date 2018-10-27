@@ -1,5 +1,5 @@
 # PicoCTF'18
-# HEEEEEEEERE's Johnny!
+# HEEEEEERE's Johnny!
 
 Classic John The Ripper problem. 
 
