@@ -93,13 +93,13 @@ so whoami just tells ur current user and using it we get the username
 Perfect! One second!<br>
 Okay, I think I have got what we are looking for. I just need to to copy the file to a place we can read.<br>
 Try copying the file called TopSecret in tmp directory into the passwords folder.<br><br>
-##### ~/executables$ cd ..<br>~/$ cp /tmp/TopSecret passwords<br><br>
+##### ~/executables$ cd ..<br>~ /$ cp /tmp/TopSecret passwords<br><br>
 
 "this step was most difficult for me as i was trying to execute it from the executables directory itself but it was not working, on searching for the possible reasons i came to know that it was an internal error and on when i used it on home directory it worked for me "<br><br>
 
 Server shutdown in 10 seconds...<br>
 Quick! go read the file before we lose our connection!<br><br>
-##### ~/$ cd ..<br>~/$ cd passwords<br>~/passwords$ ls<br>TopSecret<br>~/passwords$ cat TopSecret<br><br>
+##### ~ /$ cd ..<br> ~ /$ cd passwords<br>~/passwords$ ls<br>TopSecret<br>~/passwords$ cat TopSecret<br><br>
 
 cat command allow us to reads files sequentially and writing them to standard output.
 
