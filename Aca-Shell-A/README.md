@@ -41,14 +41,14 @@ this will remove all files with name-format i____  (* act as an wildcard)
 #### Nice! Once they are all gone, I think I can drop you a file of an exploit!
 #### Just type "echo 'Drop it in!' " and we can give it a whirl!
 
-##### ~/secret$ echo 'Drop it in!'
+##### ~ /secret$ echo 'Drop it in!'
 
 #### Drop it in!<br>I placed a file in the executables folder as it looks like the only place we can execute from!<br>Run the script I wrote to have a little more impact on the system! ../
 
-##### ~/secret$ cd ..<br> ~/secret$ cd executables<br> ~/executables$ ls<br>dontLookHere
+##### ~ /secret$ cd ..<br> ~ /secret$ cd executables<br> ~ /executables$ ls<br>dontLookHere
 
 <br>
-~/executables$ ./dontLookHere
+~ /executables$ ./dontLookHere<br>
  ee30 1084 50a2 015d 754e a887 bb74 2a68 6bdc 87ae 53d1 7fd7 e8cc a3e3 61c1 c4d2 fa27 2d93 d271 ae93 2a15 5e26 3a24 1c75 b2b2
  418d eba6 252b 02cf de8c 14cc 5a5c a692 46b5 7431 2c8f 26d1 8df3 0f00 8f40 96b2 ca9f efe6 0790 1045 c5d2 c5cb 2ca5 8ac3 359a
  7ba1 2460 0b80 5996 6b9f 4268 aaa5 d37c 44f4 f58f 271f b8e4 baed 3ca0 864d bd88 623c 9b8e 1480 ab14 18ad 5cb6 026d e916 5aec
@@ -86,20 +86,20 @@ Quick! Print the username to the screen so we can close are backdoor and log int
 You have to find another way other than echo!
 
 
-##### ~/executables$ whoami<br>l33th4x0r
+##### ~ /executables$ whoami<br>l33th4x0r
 
 so whoami just tells ur current user and using it we get the username
 
 Perfect! One second!<br>
 Okay, I think I have got what we are looking for. I just need to to copy the file to a place we can read.<br>
 Try copying the file called TopSecret in tmp directory into the passwords folder.<br><br>
-##### ~/executables$ cd ..<br>~ /$ cp /tmp/TopSecret passwords<br><br>
+##### ~ /executables$ cd ..<br> ~ /$ cp /tmp/TopSecret passwords<br><br>
 
 "this step was most difficult for me as i was trying to execute it from the executables directory itself but it was not working, on searching for the possible reasons i came to know that it was an internal error and on when i used it on home directory it worked for me "<br><br>
 
 Server shutdown in 10 seconds...<br>
 Quick! go read the file before we lose our connection!<br><br>
-##### ~ /$ cd ..<br> ~ /$ cd passwords<br>~/passwords$ ls<br>TopSecret<br>~/passwords$ cat TopSecret<br><br>
+##### ~ /$ cd ..<br> ~ /$ cd passwords<br> ~ /passwords$ ls<br>TopSecret<br> ~ /passwords$ cat TopSecret<br><br>
 
 cat command allow us to reads files sequentially and writing them to standard output.
 
