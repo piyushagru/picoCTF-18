@@ -1,0 +1,3 @@
+cd bin
+java -jar $CTF_ROOT/bin/stegsolve.jar
+and then open the image
