@@ -14,4 +14,4 @@ I have uploaded all the files that I created during the competition under the na
 <br>
 
 updated:<br>
-I didn't solve all the available questions so I may not have a proper question bank. If you find anything else add questions in a folder under your team_name.
+I didn't solve all the available questions so I may not have a proper question's bank. If you find anything else add questions in a folder under your team_name.
